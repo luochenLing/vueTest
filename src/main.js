@@ -10,3 +10,14 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+
+
+
+
+
+// //全局导航守卫
+// router.beforeEach((to,from,next)=>{
+//   console.log(to);
+//   console.log(from);
+//   next();
+// })
